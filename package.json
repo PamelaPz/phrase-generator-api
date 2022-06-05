@@ -9,6 +9,7 @@
     "production": "vue-cli-service serve --mode production"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -40,10 +41,5 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  }
 }

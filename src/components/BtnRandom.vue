@@ -1,16 +1,12 @@
 <template>
-  <div class="wp-circleRandom">
-    <div class="circleRandom">
-      <img :src="imagen" alt="dice" />
-    </div>
-  </div>
+  <button class="circleRandom" @click="button">
+    <img :src="imagen" alt="dice" />
+  </button>
 </template>
 
 <script>
 export default {
   name: "BtnRandom",
-  props: {
-    imagen: String,
-  },
+  props: ["imagen", "button"],
 };
 </script>

@@ -1,9 +1,6 @@
 <template>
   <div class="main">
-    <CardWrapper
-      frase="It is easy to sit up ad take notice, what's difficult is getting up and
-        taking action."
-    />
+    <CardWrapper />
   </div>
 </template>
 
@@ -14,11 +11,6 @@ export default {
   name: "App",
   components: {
     CardWrapper,
-  },
-  methods: {
-    getFrase() {
-      console.log("API --> https://api.adviceslip.com/advice");
-    },
   },
 };
 </script>
